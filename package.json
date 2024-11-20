@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "记录学习nodejs的过程",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Happydongjiafeng/dongjiafeng/issues"
   },
-  "homepage": "https://github.com/Happydongjiafeng/dongjiafeng#readme"
+  "homepage": "https://github.com/Happydongjiafeng/dongjiafeng#readme",
+  "dependencies": {
+    "events": "^3.3.0"
+  }
 }
