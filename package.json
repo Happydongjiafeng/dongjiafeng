@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "记录学习nodejs的过程",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,7 +17,13 @@
   },
   "homepage": "https://github.com/Happydongjiafeng/dongjiafeng#readme",
   "dependencies": {
+    "@prisma/client": "^6.2.1",
     "events": "^3.3.0",
-    "http": "^0.0.1-security"
+    "express": "^4.21.2",
+    "http": "^0.0.1-security",
+    "http-proxy-middleware": "^3.0.3"
+  },
+  "devDependencies": {
+    "prisma": "^6.2.1"
   }
 }

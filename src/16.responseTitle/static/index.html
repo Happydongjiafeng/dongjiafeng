@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>实时获取数据</title>
+</head>
+<body>
+<script>
+  // 实时获取数据
+  const sse = new EventSource('http://localhost:3000/sse');
+
+  sse.addEventListener('message', (event) => {
+    console.log(event)
+  })
+</script>
+</body>
+</html>
